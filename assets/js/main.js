@@ -48,17 +48,17 @@ genera.addEventListener("click", function() {
 
     // prezzo biglietto
     if (eta == "minorenne") {
-        prezzo = (((km_da_percorre * tariffa) / 5 ) * 4).toFixed(2);
+        prezzo = (((km_da_percorrere * tariffa) / 5 ) * 4).toFixed(2);
         const prz_biglietto = document.getElementById('prezzo');
         let prezzo_biglietto = `<p>${prezzo}€ </p>`;
         prz_biglietto.insertAdjacentHTML("afterend", prezzo_biglietto);
     } else if (eta == "over65") {
-        prezzo = (((km_da_percorre * tariffa) / 5 ) * 3).toFixed(2);
+        prezzo = (((km_da_percorrere * tariffa) / 5 ) * 3).toFixed(2);
         const prz_biglietto = document.getElementById('prezzo');
         let prezzo_biglietto = `<p>${prezzo}€ </p>`;
         prz_biglietto.insertAdjacentHTML("afterend", prezzo_biglietto);
     } else {
-        prezzo = (km_da_percorre * tariffa).toFixed(2);
+        prezzo = (km_da_percorrere * tariffa).toFixed(2);
         const prz_biglietto = document.getElementById('prezzo');
         let prezzo_biglietto = `<p>${prezzo}€ </p>`;
         prz_biglietto.insertAdjacentHTML("afterend", prezzo_biglietto);
