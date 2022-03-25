@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main_color: #b91450;
+}
+
+.bg_main{
+    background-color: var(--main_color);
+}
+.bg_main h2{
+    font-size: 40px;
+}
+.main_color{
+    color: var(--main_color);
+}
