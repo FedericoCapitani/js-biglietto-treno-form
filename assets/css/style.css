@@ -6,6 +6,7 @@
 
 :root{
     --main_color: #b91450;
+    --bg-btn:#cccccc;
 }
 
 .bg_main{
@@ -14,6 +15,15 @@
 .bg_main h2{
     font-size: 40px;
 }
+.button{
+    background-color: var(--bg-btn);
+    padding: 0 10px;
+    margin: 0 10px;
+    border: 2px solid var(--main_color);
+}
 .main_color{
     color: var(--main_color);
+}
+.main_color_border{
+    border: 1px solid var(--main_color);
 }
